@@ -143,7 +143,7 @@ function App() {
   if (!auth.token) {
     return (
       <div>
-        <h1>Library Portal Sign-In</h1>
+        <h1>Library Portal Sign-In;</h1>
         {authError && <p>{authError}</p>}
         <form onSubmit={isRegister ? handleRegister : handleLogin}>
           <input
